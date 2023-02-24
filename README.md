@@ -2,4 +2,6 @@
 
 Just adding this to quickly redownload my tmux config on new machines
 
-use a symlink for these xoxoxo
+    ln -s ~/tmuxrc/.tmux.conf ./.tmux.conf 
+
+**Important!** Make sure you set TERM=screen-256colors
